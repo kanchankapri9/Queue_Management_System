@@ -19,6 +19,7 @@ function App() {
 
   //   2 .  function to update the queue when a person is seved
   const serveCustomer = () => {
+   
 
   }
 
