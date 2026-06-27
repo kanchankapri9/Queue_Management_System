@@ -1,0 +1,256 @@
+/* ===================================================== */
+/* Appointment Form Container */
+/* ===================================================== */
+
+.apoinment-form{
+
+    max-width: 550px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    background-color: #ffffff;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+/* ===================================================== */
+/* Form Heading */
+/* ===================================================== */
+
+.apoinment-form h2{
+
+    text-align: center;
+
+    color: #1d4ed8;
+
+    margin-bottom: 25px;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Form Group */
+/* Every input field is wrapped inside this container */
+/* ===================================================== */
+
+.form-group{
+
+    margin-bottom: 18px;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Common Styling for Inputs, Select & Textarea */
+/* ===================================================== */
+
+.form-group input,
+
+.form-group select,
+
+.form-group textarea{
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 16px;
+
+    transition: all 0.3s ease;
+
+    box-sizing: border-box;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Input Focus Effect */
+/* This appears when user clicks on an input */
+/* ===================================================== */
+
+.form-group input:focus,
+
+.form-group select:focus,
+
+.form-group textarea:focus{
+
+    border-color: #2563eb;
+
+    box-shadow: 0px 0px 8px rgba(37, 99, 235, 0.3);
+
+}
+
+
+
+
+/* ===================================================== */
+/* Textarea */
+/* ===================================================== */
+
+.form-group textarea{
+
+    resize: vertical;
+
+    min-height: 120px;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Placeholder */
+/* ===================================================== */
+
+.form-group input::placeholder,
+
+.form-group textarea::placeholder{
+
+    color: #9ca3af;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Select Dropdown */
+/* ===================================================== */
+
+.form-group select{
+
+    cursor: pointer;
+
+    background-color: white;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Submit Button */
+/* ===================================================== */
+
+.apoinment-form button{
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 10px;
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Button Hover */
+/* ===================================================== */
+
+.apoinment-form button:hover{
+
+    background-color: #1e40af;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+
+/* ===================================================== */
+/* Button Active */
+/* This effect appears while clicking */
+/* ===================================================== */
+
+.apoinment-form button:active{
+
+    transform: scale(0.98);
+
+}
+
+
+
+
+/* ===================================================== */
+/* React Icon */
+/* ===================================================== */
+
+.apoinment-form button svg{
+
+    font-size: 18px;
+
+}
+
+
+
+
+/* ===================================================== */
+/* Responsive Design */
+/* ===================================================== */
+
+@media (max-width: 768px){
+
+    .apoinment-form{
+
+        margin: 20px;
+
+        padding: 20px;
+
+    }
+
+    .apoinment-form h2{
+
+        font-size: 24px;
+
+    }
+
+}
